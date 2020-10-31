@@ -17,6 +17,10 @@ namespace RentalKendaraan_064.Models
         public int? IdJaminan { get; set; }
         public int? Biaya { get; set; }
 
+        public int? Kendaraaan { get; set; }
+        public int? Customer { get; set; }
+        public int? Jaminan { get; set; }
+
         public Customer IdCustomerNavigation { get; set; }
         public Jaminan IdJaminanNavigation { get; set; }
         public Kendaraan IdKendaraanNavigation { get; set; }
